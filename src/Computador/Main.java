@@ -16,9 +16,5 @@ public class Main {
         
         Computador pc2 = new Computador(8, 256, 4, "NVidia GTX 2080");
         pc2.showPc();
-        
-        Computador pc3 = new Computador();
-        pc3.setPc(54, 2345, 23, "CJASDIOCJIOADC");
-        pc3.showPc();
     }
 }

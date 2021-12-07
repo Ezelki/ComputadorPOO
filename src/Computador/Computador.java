@@ -22,19 +22,6 @@ public class Computador {
         System.out.println("Quantidade de cores do processador: "+processador.getCores());
         System.out.println("Modelo da placa de vídeo: "+placadevideo.getModelo());
     }
-    public void setPc(){
-        ram = new Ram();
-        hd = new Hd();
-        processador = new Processador();
-        placadevideo = new Placadevideo();
-    }
-    
-    public void setPc(int qntRam, int hdGb, int cores, String modelo){
-        ram = new Ram(qntRam);
-        hd = new Hd(hdGb);
-        processador = new Processador(cores);
-        placadevideo = new Placadevideo(modelo);
-    }
     
     public Computador(){
         ram = new Ram();
